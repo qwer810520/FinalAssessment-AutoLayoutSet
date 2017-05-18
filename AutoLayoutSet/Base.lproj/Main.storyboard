@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -22,17 +22,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZAA-sn-0I8">
-                                <rect key="frame" x="0.0" y="400" width="320" height="80"/>
+                                <rect key="frame" x="0.0" y="407" width="320" height="73"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VUo-VD-XEU">
-                                        <rect key="frame" x="20" y="0.0" width="280" height="70"/>
+                                        <rect key="frame" x="20" y="0.0" width="280" height="63"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kv7-J8-vLL">
-                                                <rect key="frame" x="0.0" y="0.0" width="136" height="70"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="63"/>
                                                 <color key="backgroundColor" red="1" green="0.5029178261756897" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GpY-w6-syl">
-                                                <rect key="frame" x="144" y="0.0" width="136" height="70"/>
+                                                <rect key="frame" x="144" y="0.0" width="136" height="63"/>
                                                 <color key="backgroundColor" red="0.40043199062347412" green="0.65299206972122192" blue="0.067293517291545868" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                         </subviews>
@@ -52,7 +52,7 @@
                                     <constraint firstItem="VUo-VD-XEU" firstAttribute="leading" secondItem="ZAA-sn-0I8" secondAttribute="leading" constant="20" id="Azl-vw-0dw"/>
                                     <constraint firstAttribute="bottom" secondItem="VUo-VD-XEU" secondAttribute="bottom" constant="10" id="OJv-Qk-xiY"/>
                                     <constraint firstItem="VUo-VD-XEU" firstAttribute="top" secondItem="ZAA-sn-0I8" secondAttribute="top" id="PnK-iz-tnf"/>
-                                    <constraint firstAttribute="height" constant="80" id="ZSU-Bs-dP3"/>
+                                    <constraint firstAttribute="height" constant="73" id="ZSU-Bs-dP3"/>
                                     <constraint firstAttribute="trailing" secondItem="VUo-VD-XEU" secondAttribute="trailing" constant="20" id="zoM-4z-aw4"/>
                                 </constraints>
                             </view>
